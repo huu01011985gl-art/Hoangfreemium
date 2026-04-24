@@ -1,0 +1,952 @@
+local _v1 = game:HttpGet("https://raw.githubusercontent.com/Myvkhuy/One-Ui/refs/heads/Bearlib/raw.txt")
+local _v2 = loadstring(_v1)()
+local _v3 = _v2:CreateWindow({
+    Image = "rbxassetid://103423456341785",
+    Subtitle = "| T\xe1\xbb\x95ng H\xe1\xbb\xa3p",
+    Title = "HDZ hub Premium "
+})
+local _v4 = _v3:AddTab("Info")
+local _v5 = _v3:AddTab("Blox Fruit")
+local _v6 = _v3:AddTab("Fix Lag")
+local _v7 = _v3:AddTab("Mod")
+local _v8 = _v3:AddTab("99 Night")
+local _v9 = _v3:AddTab("Sever")
+local _v10 = _v3:AddTab("Tsunami")
+local _v11 = _v3:AddTab("Steal a brainrot")
+local _v12 = _v3:AddTab("Fisch")
+local _v13 = _v3:AddTab("Doors")
+local _v14 = _v3:AddTab("The Forge")
+local _v15 = _v3:AddTab("Plants vs brainrot")
+local _v16 = _v3:AddTab("Zombie attacks")
+local _v17 = _v3:AddTab("Bee Swarm")
+local _v18 = _v3:AddTab("King Legacy")
+local _v19 = _v3:AddTab("Build a boat")
+local _v20 = _v3:AddTab("Music")
+local _v21 = _v3:AddTab("Kh\xc3\xa1c")
+local _v22 = _v4:AddLeftGroupbox("Li\xc3\xaan H\xe1\xbb\x87 & H\xe1\xbb\x97 Tr\xe1\xbb\xa3")
+local _v23 = _v22:AddButton({
+    Callback = function()
+    setclipboard("https://www.tiktok.com/@huyscriptth?_r=1&_t=ZS-94u1sPok6YT")
+    local _v178 = _v2:Notify({
+    Description = "Link TikTok \xc4\x91\xc3\xa3 \xc4\x91\xc6\xb0\xe1\xbb\xa3c copy v\xc3\xa0o clipboard!",
+    Duration = 3,
+    Title = "\xc4\x90\xc3\xa3 copy link TikTok"
+})
+    local _ = fenv["9koi0xLonKjR"]
+end,
+    Title = "\xf0\x9f\x93\xb1 TikTok Huy script"
+})
+local _v24 = _v5:AddRightGroupbox("PvP")
+local _v25 = _v24:AddButton({Callback = function()
+    local _v179 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/PvPuinew")
+    local _v180 = loadstring(_v179)()
+    local _ = fenv["7LG1djmWsgj2"]
+end, Title = "CentuDox.xyz"})
+local _v26 = _v24:AddButton({Callback = function()
+    local _v181 = game:HttpGet("https://raw.githubusercontent.com/onion132005-bit/esponion.lua/refs/heads/main/onion13v4.lua")
+    local _v182 = loadstring(_v181)()
+    local _ = fenv.PVxL4xrDRWxZ
+end, Title = "onion13"})
+local _v27 = _v24:AddButton({Callback = function()
+    local _v183 = game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua")
+    local _v184 = loadstring(_v183)()
+    local _ = fenv["90bDMP3hwrRl6"]
+end, Title = "Hermanos'Dev|PVP"})
+local _v28 = _v24:AddButton({Callback = function()
+    local _v185 = game:HttpGet("https://raw.githubusercontent.com/VoidDeveloper67/VoidHub/refs/heads/main/VoidHub")
+    local _v186 = loadstring(_v185)()
+    local _ = fenv.c3ztCGiniOL1RX
+end, Title = "Void Hub"})
+local _v29 = _v24:AddButton({Callback = function()
+    local _v187 = game:HttpGet("https://raw.githubusercontent.com/Krovyn/KrovynHub/refs/heads/main/TOP_PVP")
+    local _v188 = loadstring(_v187)()
+    local _ = fenv["4tPR7NTqlV7t36"]
+end, Title = "TOP_PVP"})
+local _v30 = _v24:AddButton({Callback = function()
+    local _v189 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/PvPvip/refs/heads/main/Pvp")
+    local _v190 = loadstring(_v189)()
+    local _ = fenv.TU4S5qaF1Gbv
+end, Title = "MENU"})
+local _v31 = _v24:AddButton({Callback = function()
+    local _v191 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp")
+    local _v192 = loadstring(_v191)()
+    local _ = fenv.aKLiYfoN0t43
+end, Title = "Menu 1"})
+local _v32 = _v24:AddButton({Callback = function()
+    local _v193 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huyz")
+    local _v194 = loadstring(_v193)()
+    local _ = fenv.gNoomroAJ0gtc
+end, Title = "Menu 2"})
+local _v33 = _v24:AddButton({Callback = function()
+    local _v195 = game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios")
+    local _v196 = loadstring(_v195)()
+    local _ = fenv.T3xDnIXfINumN
+end, Title = "VanThanhIOS Hitbox"})
+local _v34 = _v5:AddLeftGroupbox("Farm")
+local _v35 = _v34:AddButton({Callback = function()
+    local _v197 = game:HttpGet("https://rise-evo.xyz/apiv3/main.lua")
+    local _v198 = loadstring(_v197)()
+    local _ = fenv.gssGgzh6zR0G
+end, Title = "Rise-evo"})
+local _v36 = _v34:AddButton({Callback = function()
+    local _v199 = game:HttpGet("https://raw.githubusercontent.com/Anniecreate86/BloxFruits/refs/heads/main/BetaHub-BF")
+    local _v200 = loadstring(_v199)()
+    local _ = fenv.lrA6EoHHJTVy
+end, Title = "Anniecreat"})
+local _v37 = _v34:AddButton({Callback = function()
+    local _v201 = game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua")
+    local _v202 = loadstring(_v201)()
+    local _ = fenv.cWzIuO2cRaNE
+end, Title = "Quan Tum Onyx"})
+local _v38 = _v34:AddButton({Callback = function()
+    local _v203 = game:IsLoaded()
+    wait(0)
+    local _v204 = game:IsLoaded()
+    local _v205 = game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua")
+    local _v206 = loadstring(_v205)()
+    local _ = fenv.UNYqSSlBZGhrdc
+end, Title = "Teddy Hud"})
+local _v39 = _v34:AddButton({Callback = function()
+    local _v207 = game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua")
+    local _v208 = loadstring(_v207)()
+    local _ = fenv.yfYIrosot3M6wG
+end, Title = "Anhdepzai hub"})
+local _v40 = _v34:AddButton({Callback = function()
+    local _v209 = game:IsLoaded()
+    task.wait(0)
+    local _v211 = game:HttpGet("https://github.com/LeafHubAcademy/LeafHub/raw/refs/heads/main/Leaf.lua")
+    local _v212 = loadstring(_v211)()
+    local _ = fenv.TIS1pHIg3eV7s
+end, Title = "Leaf hub"})
+local _v41 = _v34:AddButton({Callback = function()
+    local _v213 = game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora")
+    local _v214 = loadstring(_v213)()
+    local _ = fenv["15s2PDLLtpRM"]
+end, Title = "Aurora"})
+local _v42 = _v34:AddButton({Callback = function()
+    local _v215 = game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/Hoangtrongdepzai.lua")
+    local _v216 = loadstring(_v215)()
+    local _ = fenv["5T1XFYl2ncFx"]
+end, Title = "NHT X hub"})
+local _v43 = _v34:AddButton({Callback = function()
+    local _v217 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huyscript/refs/heads/main/newscript.txt")
+    local _v218 = loadstring(_v217)()
+    local _ = fenv.VWx8z4AwDGsyR
+end, Title = "Bear hub"})
+local _v44 = _v34:AddButton({Callback = function()
+    local _v219 = game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua")
+    local _v220 = loadstring(_v219)()
+    local _ = fenv.YUOhatIwR3HNmk
+end, Title = "Night hud"})
+local _v45 = _v34:AddButton({
+    Callback = function()
+    local _v221 = game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua")
+    local _v222 = loadstring(_v221)()
+    local _ = fenv.OpeEZttbja22dP
+end,
+    Title = "Tu\xe1\xba\xa5n Anh IOS"
+})
+local _v46 = _v5:AddRightGroupbox("Redz fake")
+local _v47 = _v46:AddButton({Callback = function()
+    local _v223 = game:HttpGet(" https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV2/refs/heads/main/MainV2.txt")
+    local _v224 = loadstring(_v223)()
+    local _ = fenv.S4fp6JeSTW3L
+end, Title = "Long hihi"})
+local _v48 = _v46:AddButton({Callback = function()
+    local _v225 = game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua")
+    local _v226 = loadstring(_v225)()
+    local _ = fenv.VGZULN599CMa
+end, Title = "Gravity Hud"})
+local _v49 = _v46:AddButton({Callback = function()
+    local _v227 = game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua")
+    local _v228 = loadstring(_v227)()
+    local _ = fenv.RBBJ8Zvqx2WdPy
+end, Title = "Blue X Hud"})
+local _v50 = _v46:AddButton({Callback = function()
+    wait(0)
+    local genv = getgenv()
+    genv.team = "Pirates"
+    local _v231 = game:HttpGet("https://raw.githubusercontent.com/dragonhubdev/dragonwitheveryone/refs/heads/main/Main-BF.lua")
+    local _v232 = loadstring(_v231)()
+    local _ = fenv.bt0OmsE40jP8
+end, Title = "Dragon hub"})
+local _v51 = _v46:AddButton({Callback = function()
+    local _v233 = game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinyeuem/refs/heads/main/KingRuaHub.lua")
+    local _v234 = loadstring(_v233)()
+    local _ = fenv.zNmYbYxgbVMV7g
+end, Title = "King R\xc3\xb9a"})
+local _v52 = _v46:AddButton({Callback = function()
+    local _v235 = game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/traurobloxv9.lua")
+    local _v236 = loadstring(_v235)()
+    local _ = fenv.puaOkFWk4wg39
+end, Title = "Tr\xe1\xba\xa9u V9"})
+local _v53 = _v46:AddButton({Callback = function()
+    wait(0)
+    genv.team = "Pirates"
+    local _v239 = game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/BaconHub.lua")
+    local _v240 = loadstring(_v239)()
+    local _ = fenv.NgjCRc2yT9jrh
+end, Title = "Bacon hub"})
+local _v54 = _v46:AddButton({
+    Callback = function()
+    genv.Team = "Marines"
+    local _v241 = game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV3Eng")
+    local _v242 = loadstring(_v241)()
+    local _ = fenv.BYVJR93jAAQKD
+end,
+    Title = "\xc4\x90\xe1\xba\xa1t THG V3"
+})
+local _v55 = _v46:AddButton({
+    Callback = function()
+    local _v243 = game:HttpGet("https://github.com/LuaCrack/DatThg/raw/refs/heads/main/DatThgVnV4")
+    local _v244 = loadstring(_v243)()
+    local _ = fenv.rRdINrDzw4vkB
+end,
+    Title = "\xc4\x90\xe1\xba\xa1t THG V4"
+})
+local _v56 = _v46:AddButton({Callback = function()
+    local _v245 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudz/refs/heads/main/Bearhud.lua")
+    local _v246 = loadstring(_v245)()
+    local _ = fenv.vSj1ApusZU4vc
+end, Title = "Bear hub"})
+local _v57 = _v46:AddButton({Callback = function()
+    local _v247 = game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua")
+    local _v248 = loadstring(_v247)()
+    local _ = fenv.P07brPJyErbh4
+end, Title = "Redz"})
+local _v58 = _v46:AddButton({Callback = function()
+    local _v249 = game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua")
+    local _v250 = loadstring(_v249)()
+    local _ = fenv.NiunkfAqZRby
+end, Title = "Nana"})
+local _v59 = _v46:AddButton({Callback = function()
+    local _v251 = game:HttpGet("https://raw.githubusercontent.com/real33ms/BloxFruits/refs/heads/main/AbacaxiHubOfc.lua")
+    local _v252 = loadstring(_v251)()
+    local _ = fenv.oaWUfqdzRjJZp
+end, Title = "Abacaxi Hub"})
+local _v60 = _v5:AddLeftGroupbox("Banana fake")
+local _v61 = _v60:AddButton({Callback = function()
+    local _v253 = game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/trauroblox/refs/heads/main/traubluev1")
+    local _v254 = loadstring(_v253)()
+    local _ = fenv.KLIy0XJ0TpbAL
+end, Title = "Tr\xe1\xba\xa9u V11"})
+local _v62 = _v60:AddButton({Callback = function()
+    local _v255 = game:HttpGet(" https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV3/refs/heads/main/MainV3.txt")
+    local _v256 = loadstring(_v255)()
+    local _ = fenv.LUb7IAhw16CqNc
+end, Title = "Long hihi"})
+local _v177 = _v60:AddButton({Callback = function()
+    local _v255 = game:HttpGet(" https://raw.githubusercontent.com/huu01011985gl-art/hoangpremium/refs/heads/main/TRADEHOANGDZ")
+    local _v256 = loadstring(_v255)()
+    local _ = fenv.LUb7IAhw16CqNc
+end, Title = "trade scam "})
+local _v63 = _v60:AddButton({Callback = function()
+    local _v257 = game:HttpGet("https://raw.githubusercontent.com/dauphucan061-tech/mbingua/refs/heads/main/4968767887617217.lua")
+    local _v258 = loadstring(_v257)()
+    local _ = fenv["9SeLlefWmBa8"]
+end, Title = "Banana Hub"})
+local _v64 = _v60:AddButton({Callback = function()
+    wait(0)
+    local _v261 = game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaVN/Real_AnhKhoa_2279/refs/heads/main/Main-BloxFruitsNX.lua")
+    local _v262 = loadstring(_v261)()
+    local _ = fenv["1VZ1SykiohZs9w"]
+end, Title = "Bloxfruits NX"})
+local _v65 = _v60:AddButton({
+    Callback = function()
+    local _v263 = game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisChuoiEng")
+    local _v264 = loadstring(_v263)()
+    local _ = fenv.F9GS2Jkjy4fyX
+end,
+    Title = "Zis chu\xe1\xbb\x91i EEG"
+})
+local _v66 = _v60:AddButton({Callback = function()
+    local _v265 = game:HttpGet("https://raw.githubusercontent.com/kaitofixlag-hub/Scriptkaito/refs/heads/main/bananahubkaito.txt")
+    local _v266 = loadstring(_v265)()
+    local _ = fenv["7VpwrkazqvkeA"]
+end, Title = "Banana KaiTom"})
+local _v67 = _v60:AddButton({Callback = function()
+    local _v267 = game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/BananaCatHub/refs/heads/main/BananaCatHub.lua")
+    local _v268 = loadstring(_v267)()
+    local _ = fenv.QaMk1uO6qVwX
+end, Title = "Banana Chiriku"})
+local _v68 = _v5:AddRightGroupbox("Maru hub fake")
+local _v69 = _v68:AddButton({Callback = function()
+    local _v269 = game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/MaruHubV1/refs/heads/main/MainV1.Lua ")
+    local _v270 = loadstring(_v269)()
+    local _ = fenv["6ZE8BZouZTbV"]
+end, Title = "Long hihi"})
+local _v70 = _v5:AddLeftGroupbox("Xeter")
+local _v71 = _v70:AddButton({Callback = function()
+    genv.Version = "V1"
+    genv.Team = "Marines"
+    local _v271 = game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua")
+    local _v272 = loadstring(_v271)()
+    local _ = fenv.lkEiPlgigg5h
+end, Title = "Xeter V1"})
+local _v72 = _v70:AddButton({Callback = function()
+    genv.Version = "V2"
+    genv.Team = "Marines"
+    local _v273 = game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua")
+    local _v274 = loadstring(_v273)()
+    local _ = fenv.lN6XCLR5Mfnd
+end, Title = "Xeter V2"})
+local _ = fenv.jKPoUp4QE2J9
+local _v73 = _v70:AddButton({Callback = function()
+    genv.Version = "V3"
+    genv.Team = "Marines"
+    local _v275 = game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua")
+    local _v276 = loadstring(_v275)()
+    local _ = fenv.kCxX44eoqjb5
+end, Title = "Xeter V3"})
+local _v74 = _v70:AddButton({Callback = function()
+    genv.Version = "V4"
+    genv.Team = "Marines"
+    local _v278 = loadstring(_v277)()
+    local _ = fenv.LHDGQnb4ldiKmi
+end, Title = "Xeter V4"})
+local _v75 = _v5:AddRightGroupbox("Farm V2")
+local _v76 = _v75:AddButton({Callback = function()
+    local _v279 = game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua")
+    local _v280 = loadstring(_v279)()
+    local _ = fenv["7VpMHs8JEcS9K"]
+end, Title = "RubuV5"})
+local _v77 = _v75:AddButton({Callback = function()
+    local _v281 = game:IsLoaded()
+    wait(0)
+    local _v283 = game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/RUBU/refs/heads/main/RUBUV6.lua")
+    local _v284 = loadstring(_v283)()
+    local _ = fenv["6Nmc6ABxUARchH"]
+end, Title = "RubuV6"})
+local _v78 = _v5:AddLeftGroupbox("Attak m1")
+local _v79 = _v78:AddButton({Callback = function()
+    local _v285 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Attack-/refs/heads/main/Aura")
+    local _v286 = loadstring(_v285)()
+    local _ = fenv.GIuv7BX9pIn3
+end, Title = "V1"})
+local _v80 = _v78:AddButton({Callback = function()
+    local _v287 = game:HttpGet("https://pandadevelopment.net/virtual/file/e9c206fd76482ee2")
+    local _v288 = loadstring(_v287)()
+    local _ = fenv.tUaqu8cDIN9BTl
+end, Title = "V2"})
+local _v81 = _v5:AddRightGroupbox("Shop")
+local _v82 = _v81:AddButton({Callback = function()
+    local _v289 = game:HttpGet("https://luacrack.site/index.php/Quanghuy/raw/Melle")
+    local _v290 = loadstring(_v289)()
+    local _ = fenv.kLzgUrdHSAO1Kb
+end, Title = "Bear hub"})
+local _v83 = _v5:AddLeftGroupbox("Auto bounty")
+local _v84 = _v83:AddButton({Callback = function()
+    task.wait(0)
+    genv.Team = "Pirates"
+    genv.Mode = "Auto Bounty"
+    genv.On_Ui = true
+    genv.Config = {
+    ["Custom Y Run"] = {Enabled = true, ["Y Run"] = 5000},
+    ["Hunt Method"] = {
+        Aimbot = true,
+        ["ESP Player"] = true,
+        ["Hit and Run"] = false,
+        Hitbox = false,
+        ["Hitbox-Size"] = Vector3.new(80, 80, 80),
+        ["Lock Bounty"] = {Bounty = {0, 30000000}, Enabled = false},
+        ["Max Attack Time"] = 60,
+        ["Skip Player"] = {"concac"},
+        ["Use Move Predict"] = false
+    },
+    Items = {
+        ["Blox Fruit"] = {
+            Delay = 0.4,
+            Enable = false,
+            Skills = {
+                C = {Enable = true, HoldTime = 0.15},
+                F = {Enable = true, HoldTime = 0.1},
+                V = {Enable = true, HoldTime = 0.2},
+                X = {Enable = true, HoldTime = 0.1},
+                Z = {Enable = true, HoldTime = 0.1}
+            }
+        },
+        Gun = {
+            Delay = 0.3,
+            Enable = false,
+            Skills = {X = {Enable = true, HoldTime = 0.1}, Z = {Enable = true, HoldTime = 0.1}}
+        },
+        Melee = {
+            Delay = 0.4,
+            Enable = true,
+            Skills = {
+                C = {Enable = true, HoldTime = 0.5},
+                X = {Enable = true, HoldTime = 0.2},
+                Z = {Enable = true, HoldTime = 0.3}
+            }
+        },
+        Sword = {
+            Delay = 0.5,
+            Enable = true,
+            Skills = {X = {Enable = true, HoldTime = 0}, Z = {Enable = true, HoldTime = 1}}
+        }
+    },
+    ["Safe Health"] = {50, 70},
+    Setting = {
+        ["FPS BOOSTER"] = false,
+        ["Fast Delay"] = 0.45,
+        ["Lock Weapons"] = {Melee = "Godhuman"},
+        ["Server Hop"] = {
+            ["Minimum player"] = {
+                10,
+                9,
+                8,
+                7,
+                6,
+                5,
+                4,
+                3,
+                2,
+                1
+            }
+        },
+        Url = "",
+        ["White Screen"] = false,
+        World = 3
+    },
+    Shop = {["Random Fruit"] = false, ["Store Fruit"] = true, ["Zoro Sword"] = false},
+    Skip = {
+        ["Avoid V4"] = false,
+        Fruit = {["Avoid Fruit"] = {"Portal-Portal", "Kitsune-Kitsune"}, Enabled = true}
+    },
+    ["Spam All Skill On V4"] = {Enabled = true, Weapons = {"Melee", "Sword", "Gun", "Blox Fruit"}},
+    Stats = {Enable = false, Point = {}, ["Reset Stats"] = false},
+    Theme = {
+        Custom = {
+            Enable = false,
+            button_color = Color3.fromRGB(255, 221, 252),
+            list_color = Color3.fromRGB(255, 221, 252),
+            liststroke_color = Color3.fromRGB(151, 123, 207),
+            text_font = Enum.Font.Gotham,
+            text_size = 24,
+            title_color = Color3.fromRGB(255, 221, 252),
+            title_font = Enum.Font.FredokaOne,
+            title_size = 40,
+            titleback_color = Color3.fromRGB(169, 20, 255)
+        },
+        Name = "Premium",
+        UIUrl = "rbxassetid://131264767406496"
+    }
+}
+    local _v293 = game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/Auto_Bounty.luau")
+    local _v294 = loadstring(_v293)()
+    local _ = fenv["61PfAsa34Tum"]
+end, Title = "3TOC(Melle+sword)"})
+local _v85 = _v5:AddRightGroupbox("Auto L\xe1\xbb\xa5m Fruit")
+local _v86 = _v85:AddButton({Callback = function()
+    local _v295 = game:HttpGet("https://raw.githubusercontent.com/VoidDeveloper67/VoidHub/refs/heads/main/FruitFarmer")
+    local _v296 = loadstring(_v295)()
+    local _ = fenv.p4GqAe6NP1oy
+end, Title = "Void hub"})
+local _v87 = _v85:AddButton({Callback = function()
+    local _v297 = game:HttpGet("https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/FruitFinder.lua")
+    local _v298 = loadstring(_v297)()
+    local _ = fenv.sw0XgA7nE13O
+end, Title = "Marit Hub"})
+local _v88 = _v5:AddLeftGroupbox("Farm chest")
+local _v89 = _v88:AddButton({Callback = function()
+    wait(0)
+    genv.Team = "Marines"
+    local _v301 = game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/TN-Tp-Chest.lua")
+    local _v302 = loadstring(_v301)()
+    local _ = fenv.YaSvzKEmMGQN
+end, Title = "TrongNguyen hub"})
+local _v90 = _v5:AddRightGroupbox("Hop sever")
+local _v91 = _v90:AddButton({Callback = function()
+    local Players = game:GetService("Players")
+    local _v304 = Players.LocalPlayer:FindFirstChild("PlayerGui")
+    task.wait(0)
+    local _v306 = Players.LocalPlayer:FindFirstChild("PlayerGui")
+    local _v307 = game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM")
+    local _v308 = loadstring(_v307)()
+    local _ = fenv["1tAEQ5p4z0OXN"]
+end, Title = "Teddy"})
+local _v92 = _v90:AddButton({Callback = function()
+    local _v309 = game:HttpGet("https://github.com/WhiteX1208/Scripts/blob/main/HopScript.luau?raw=true")
+    local _v310 = loadstring(_v309)()
+    local _ = fenv.zRyYQY8NBCV2
+end, Title = "Night hub v1"})
+local _v93 = _v90:AddButton({Callback = function()
+    local _v311 = game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau")
+    local _v312 = loadstring(_v311)()
+    local _ = fenv.Qm341VrZurl2
+end, Title = "Night hub v2"})
+local _v94 = _v90:AddButton({Callback = function()
+    wait(0)
+    genv.team = "Pirates"
+    local _v315 = game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/HopBoss.lua")
+    local _v316 = loadstring(_v315)()
+    local _ = fenv.w0RBVxbiDNUTK
+end, Title = "Bacon hub"})
+local _v95 = _v90:AddButton({Callback = function()
+    local _v317 = game:HttpGet("https://rise-evo.xyz/apiv3/ServerFinder.lua")
+    local _v318 = loadstring(_v317)()
+    local _ = fenv.ubNngHGYXfh5kQ
+end, Title = "Rise-Evo"})
+local _v96 = _v6:AddLeftGroupbox("Fix Lag")
+local _v97 = _v96:AddButton({Callback = function()
+    local _v319 = game:HttpGet("https://raw.githubusercontent.com/TIKTOK-BOYCHOIGAME/PH-ICH-U/refs/heads/main/FIXLAGV2.BOYCHOIGAME")
+    local _v320 = loadstring(_v319)()
+    local _ = fenv.eydbRzqk1T0fC
+end, Title = "FixLagV2"})
+local _v98 = _v96:AddButton({Callback = function()
+    local _v321 = game:HttpGet("https://raw.githubusercontent.com/minhducnek/DucaRoblox/refs/heads/main/FixLag.lua")
+    local _v322 = loadstring(_v321)()
+    local _ = fenv.PZbhb4qAo52P
+end, Title = "Duca Roblox"})
+local _v99 = _v6:AddRightGroupbox("Xo\xc3\xa1 fog (s\xc6\xb0\xc6\xa1ng m\xc3\xb9)")
+local _v100 = _v99:AddButton({Callback = function()
+    local Lighting = game:GetService("Lighting")
+    Lighting.FogStart = 0
+    Lighting.FogEnd = 9000000000
+    local children = Lighting:GetChildren()
+end, Title = "Xo\xc3\xa1 fog"})
+local _v101 = _v6:AddLeftGroupbox("FPS")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local _v102 = _v101:AddToggle("FPSDisplay", {
+    Callback = function()
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "FPS_Overlay_System"
+    local CoreGui = game:GetService("CoreGui")
+    gui.Parent = CoreGui
+    local label = Instance.new("TextLabel")
+    label.Parent = gui
+    label.BackgroundTransparency = 1
+    label.Position = UDim2.new(0.25, 0, 0, 0)
+    label.Size = UDim2.new(0, 100, 0, 30)
+    label.Font = Enum.Font.GothamBold
+    label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    label.TextStrokeTransparency = 0.5
+    label.TextSize = 16
+    label.BorderSizePixel = 0
+    local onInputBegan = label.InputBegan:Connect(function(input, gameProcessed) end)
+    local onChanged = label.InputChanged:Connect(function(input, gameProcessed) end)
+    local onChanged = UserInputService.InputChanged:Connect(function(input, gameProcessed) end)
+    local _ = fenv.vZk8z9e7DIaDur
+    local onRenderStepped = RunService.RenderStepped:Connect(function(deltaTime) end)
+    gui.Enabled = true
+    local _ = fenv.N7Pb6ErxExSE8D
+end,
+    Default = false,
+    Title = "Hi\xe1\xbb\x87n FPS tr\xc3\xaan m\xc3\xa0n h\xc3\xacnh"
+})
+local _v103 = _v6:AddRightGroupbox("T\xe1\xbb\x91i \xc6\xb0u")
+local _v104 = _v103:AddButton({
+    Callback = function()
+    local Workspace = game:GetService("Workspace")
+    Lighting.GlobalShadows = false
+    Lighting.FogEnd = 9000000000
+    local children = Lighting:GetChildren()
+end,
+    Title = "Fix Lag Nh\xe1\xba\xb9 (Gi\xe1\xbb\xaf h\xc3\xacnh \xe1\xba\xa3nh \xc4\x91\xe1\xba\xb9p)"
+})
+local _v105 = _v103:AddButton({
+    Callback = function()
+    workspace.Terrain.WaterWaveSize = 0
+    workspace.Terrain.WaterReflectance = 0
+    workspace.Terrain.WaterTransparency = 0
+    Lighting.GlobalShadows = false
+    Lighting.FogEnd = 9000000000
+    Lighting.Brightness = 0
+    local _ = fenv.settings
+end,
+    Title = "FPS Boost Si\xc3\xaau C\xe1\xba\xa5p (Potato Mode)"
+})
+local _v106 = _v103:AddButton({
+    Callback = function()
+    Lighting.GlobalShadows = false
+    Lighting.FogEnd = 9000000000
+    Lighting.Brightness = 0
+end,
+    Title = "Si\xc3\xaau Gi\xe1\xba\xa3m Lag (Extreme Potato Mode)"
+})
+local _v107 = _v103:AddButton({
+    Callback = function()
+    local _v323 = workspace:GetDescendants()
+end,
+    Title = "H\xc6\xb0 V\xc3\xb4 (Invisible Map)"
+})
+local _v108 = _v8:AddLeftGroupbox("99 night in the forest")
+local _v109 = _v108:AddButton({Callback = function()
+    local _v324 = game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua")
+    local _v325 = loadstring(_v324)()
+    local _ = fenv["0oJvHJDHtmoG"]
+end, Title = "Foxname Hud"})
+local _v110 = _v108:AddButton({Callback = function()
+    local _v326 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Night/refs/heads/main/99night")
+    local _v327 = loadstring(_v326)()
+    local _ = fenv["3LC8rWoxUyUY"]
+end, Title = "Bear hub"})
+local _v111 = _v8:AddRightGroupbox("Kaitun Kc")
+local _v112 = _v111:AddButton({Callback = function()
+    local _v328 = game:HttpGet("https://raw.githubusercontent.com/MQPS7/99-Night-in-the-Forset/refs/heads/main/Gfarm")
+    local _v329 = loadstring(_v328)()
+    local _ = fenv["17SIljf66kcr7"]
+end, Title = "Gfarm"})
+local _v113 = _v9:AddLeftGroupbox("Hop sv Low(sv \xc3\xadt ng\xc6\xb0\xe1\xbb\x9di)")
+local _v114 = _v113:AddButton({Callback = function()
+    local _v330 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hop-sv/refs/heads/main/Huylovemy")
+    local _v331 = loadstring(_v330)()
+    local _ = fenv.Gb4SWxXC11lv
+end, Title = "Hop Sever"})
+
+
+local _v118 = _v10:AddLeftGroupbox("tsunami for brainrots")
+local _v119 = _v118:AddButton({Callback = function()
+    local _v336 = game:HttpGet("https://raw.githubusercontent.com/anowerrrr333-star/scripts/refs/heads/main/kdml_escapetsunamiforbrainrots.lua")
+    local _v337 = loadstring(_v336)()
+    local _ = fenv.ULije3xK7akl7X
+end, Title = "Kdml"})
+local _v120 = _v118:AddButton({Callback = function()
+    local _v338 = game:HttpGet("https://raw.githubusercontent.com/osakaTP2/OsakaTP2/main/Escape%20tsunami%20for%20brainrotsMONEYV5")
+    local _v339 = loadstring(_v338)()
+    local _ = fenv.WRYg7oGlESeRd3
+end, Title = "OsakaTP2"})
+local _v121 = _v118:AddButton({Callback = function()
+    local _v340 = game:HttpGet("https://pastefy.app/ULaWpxKm/raw")
+    local _v341 = loadstring(_v340)()
+    local _ = fenv.h83AHMX8iJKMFR
+end, Title = "Escape"})
+local _v122 = _v118:AddButton({Callback = function()
+    local _v342 = game:HttpGet("https://overflow.cx/loader.html")
+    local _v343 = loadstring(_v342)()
+    local _ = fenv.YtuavPCme9ke4j
+end, Title = "Grad brainrot"})
+local _v123 = _v11:AddLeftGroupbox("Steal a brainrot")
+local _v124 = _v123:AddButton({Callback = function()
+    local _v344 = game:HttpGet("https://api.luarmor.net/files/v4/loaders/508ec5275ccf4cfb2233e2e042c30948.lua")
+    local _v345 = loadstring(_v344)()
+    local _ = fenv["3U9DRuzs68Gd"]
+end, Title = "Delfi"})
+local _v125 = _v123:AddButton({Callback = function()
+    local _v346 = game:HttpGet("https://pastefy.app/z17fwDLp/raw")
+    local _v347 = loadstring(_v346)()
+    local _ = fenv.oZ3YzG5cDdbURJ
+end, Title = "Go to base"})
+local _v126 = _v123:AddButton({Callback = function()
+    local _v348 = game:HttpGet("https://api.rubis.app/v2/scrap/LDNPBmwyjDSPkgYd/raw", true)
+    local _v349 = loadstring(_v348)()
+    local _ = fenv["4AsvJTODWdNUM"]
+end, Title = "Frost hub"})
+local _v127 = _v12:AddLeftGroupbox("Fisch")
+local _v128 = _v127:AddButton({Callback = function()
+    local _v350 = game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true)
+    local _v351 = loadstring(_v350)()
+    local _ = fenv.ma3ryfJkSdXlA
+end, Title = "Speed hub"})
+local _v129 = _v127:AddButton({Callback = function()
+    local _v352 = game:HttpGet("https://zenithhub.cloud/panel/script")
+    local _v353 = loadstring(_v352)()
+    local _ = fenv["8e1FInj0SyYQD"]
+end, Title = "Zenith hub"})
+local _v130 = _v13:AddLeftGroupbox("Doors")
+local _v131 = _v130:AddButton({Callback = function()
+    local _v354 = game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105")
+    local _v355 = loadstring(_v354)()
+    local _ = fenv.c3uWuVLL0RqP
+end, Title = "Sexsation"})
+local _v132 = _v14:AddLeftGroupbox("The forge")
+local _v133 = _v132:AddButton({Callback = function()
+    local _v356 = game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true)
+    local _v357 = loadstring(_v356)()
+    local _ = fenv.V44QWlKQ4V7x
+end, Title = "Speed hub"})
+local _v134 = _v132:AddButton({Callback = function()
+    local _v358 = game:HttpGet("https://raw.githubusercontent.com/nurvian/Catraz-HUB/refs/heads/main/Catraz/main.lua")
+    local _v359 = loadstring(_v358)()
+    local _ = fenv.QEdU4lzDqzyw
+end, Title = "Cattaz hub"})
+local _v135 = _v15:AddLeftGroupbox("Plants vs brainrot")
+local _v136 = _v135:AddButton({Callback = function()
+    local _v360 = game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Forge/refs/heads/main/No1Dev")
+    local _v361 = loadstring(_v360)()
+    local _ = fenv["7KV1ofoMFeSAvq"]
+end, Title = "No1 Dev"})
+local _v137 = _v135:AddButton({Callback = function()
+    local _v362 = game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true)
+    local _v363 = loadstring(_v362)()
+    local _ = fenv.p48rdkHfAXgRH
+end, Title = "Speed hub"})
+local _v138 = _v16:AddLeftGroupbox("Zombie attacks")
+local _v139 = _v138:AddButton({Callback = function()
+    local _v364 = game:HttpGet("https://rawscripts.net/raw/Zombie-Attack-Zombie-Attack-1591")
+    local _v365 = loadstring(_v364)()
+    local _ = fenv["4hYuncXQ8xB8w"]
+end, Title = "Attack on zombie"})
+local _v140 = _v138:AddButton({Callback = function()
+    local _v366 = game:HttpGet("https://visionary-cat-25285e.netlify.app/galaxy.lua")
+    local _v367 = loadstring(_v366)()
+    local _ = fenv.nvgAG4BhGeZz
+end, Title = "Galaxy Script"})
+local _v141 = _v138:AddButton({Callback = function()
+    local _v368 = game:HttpGet("https://rawscripts.net/raw/Zombie-Attack-Synergy-Hub-73263")
+    local _v369 = loadstring(_v368)()
+    local _ = fenv.endpBO4gYgwRjU
+end, Title = "Synergy-Hub"})
+local _v142 = _v17:AddLeftGroupbox("bee swarm simulator")
+local _v143 = _v142:AddButton({Callback = function()
+    local _v370 = game:HttpGet("https://raw.githubusercontent.com/DevKron/Kron_Hub/refs/heads/main/version_1.0")
+    local _v371 = loadstring(_v370)()
+    local _ = fenv.hHY4Pzpfc3UTqd
+end, Title = "Kron_Hub"})
+local _v144 = _v142:AddButton({Callback = function()
+    local _v372 = game:HttpGet("https://raw.githubusercontent.com/Chris12089/atlasbss/main/script.lua")
+    local _v373 = loadstring(_v372)()
+    local _ = fenv.Jd8PQENE7t9NY
+end, Title = "atlas"})
+local _v145 = _v142:AddButton({Callback = function()
+    local _v374 = game:HttpGet("https://gist.githubusercontent.com/binhvuong2424-ops/b9b4177ef826ac7c8ade9dbf6796eb4a/raw/4ed5e5e851f05c66a90c9fd4b5404046c5d37cda/BONCUTI-BEE-SWARM-SIMULATOR")
+    local _v375 = loadstring(_v374)()
+    local _ = fenv.m8ZLu8r9RO0J
+end, Title = "Boncuti"})
+local _v146 = _v18:AddLeftGroupbox("King legacy")
+local _v147 = _v146:AddButton({Callback = function()
+    local _v376 = game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua")
+    local _v377 = loadstring(_v376)()
+    local _ = fenv.CSrceUpTEfRk
+end, Title = "OMG Hub"})
+local _v148 = _v19:AddLeftGroupbox("build a boat")
+local _v149 = _v148:AddButton({Callback = function()
+    local _v378 = game:HttpGet("https://rawscripts.net/raw/Build-A-Boat-For-Treasure-Ultimte-B3BFT-Script-28601")
+    local _v379 = loadstring(_v378)()
+    local _ = fenv["4CzFTQSOntunC"]
+end, Title = "Exp"})
+local _v150 = _v21:AddLeftGroupbox("Kh\xc3\xa1c")
+local _v151 = _v150:AddButton({Callback = function()
+    local _v380 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudhop/refs/heads/main/Huylovewifemy")
+    local _v381 = loadstring(_v380)()
+    local _ = fenv["8m4lWQE63JmamV"]
+end, Title = "Ring"})
+local _v152 = _v150:AddButton({Callback = function()
+    local _v382 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Key/refs/heads/main/Noclip")
+    local _v383 = loadstring(_v382)()
+    local _ = fenv.N7ehIAFDKeb41
+end, Title = "No Clip"})
+local _v153 = _v150:AddButton({Callback = function()
+    local _v384 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudply/refs/heads/main/Bearhud")
+    local _v385 = loadstring(_v384)()
+    local _ = fenv.opJODDWlwSKB
+end, Title = "Ply"})
+local _v154 = _v150:AddButton({Callback = function()
+    local _v386 = game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/refs/heads/main/LucKyRadomFruit.lua")
+    local _v387 = loadstring(_v386)()
+    local _ = fenv["68baY9NiH2YOK"]
+end, Title = "Lucky"})
+local _v155 = _v150:AddButton({Callback = function()
+    local _v388 = game:HttpGet("https://raw.githubusercontent.com/huytong233-hue/Pls/refs/heads/main/Huyply")
+    local _v389 = loadstring(_v388)()
+    local _ = fenv["2PDQsh2TjEstPs"]
+end, Title = "Ply2"})
+local _v156 = _v150:AddButton({Callback = function()
+    local _v390 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Key/refs/heads/main/S")
+    local _v391 = loadstring(_v390)()
+    local _ = fenv.NJGVYVWvkqrw
+end, Title = "Speed And Jump"})
+local _v157 = _v150:AddButton({Callback = function()
+    local _v392 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hitboxgame/refs/heads/main/Hitboxgame")
+    local _v393 = loadstring(_v392)()
+    local _ = fenv["0Fza3sHpG1gfeG"]
+end, Title = "hitbox"})
+local _v158 = _v150:AddButton({Callback = function()
+    local _v394 = game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace")
+    local _v395 = loadstring(_v394)()
+    local _ = fenv.m1g5DJk5Jx7ux
+end, Title = "Ambot"})
+local _v159 = _v150:AddButton({Callback = function()
+    local _v396 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hack/refs/heads/main/Huydepzai209")
+    local _v397 = loadstring(_v396)()
+    local _ = fenv.pj1c6q0CgdN37q
+end, Title = "ESP V\xc3\xa0 AIM"})
+local _v160 = _v150:AddButton({Callback = function()
+    local _v398 = game:HttpGet("https://raw.githubusercontent.com/miglels33/God-Mode-Script/refs/heads/main/GodModeScript.md")
+    local _v399 = loadstring(_v398)()
+    local _ = fenv.PjRhIn63xefais
+end, Title = "God mod v1"})
+local _v161 = _v150:AddButton({Callback = function()
+    local _v400 = game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal")
+    local _v401 = loadstring(_v400)()
+    local _ = fenv.HzwGyj24oB4R
+end, Title = "God mod v2"})
+local _v162 = _v150:AddButton({Callback = function()
+    local _v402 = game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huy-mod/refs/heads/main/Huy%20mod")
+    local _v403 = loadstring(_v402)()
+    local _ = fenv.mfk8DfM7hrib
+end, Title = "Huy mod"})
+local _v163 = _v7:AddLeftGroupbox("H\xc3\xa0nh \xc4\x91\xe1\xbb\x99ng")
+local _v164 = _v163:AddButton({
+    Callback = function()
+    local _v404 = game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua")
+    local _v405 = loadstring(_v404)()
+    local _ = fenv.jitlCpOFrKQ7aA
+end,
+    Title = "Mod h\xc3\xa0nh \xc4\x91\xe1\xbb\x99ng"
+})
+local _v165 = _v20:AddLeftGroupbox("Music Player")
+local _v166 = _v165:AddButton({
+    Callback = function()
+    local _ = fenv["7ILVT9MSctrux"]
+end,
+    Title = "\xf0\x9f\x94\x87 D\xe1\xbb\xabng Nh\xe1\xba\xa1c (Stop)"
+})
+local _v167 = _v165:AddButton({
+    Callback = function()
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "BearMusicInput"
+    gui.Parent = CoreGui
+    local frame = Instance.new("Frame")
+    frame.Parent = gui
+    frame.Size = UDim2.fromOffset(400, 250)
+    frame.Position = UDim2.fromScale(0.5, 0.5)
+    frame.AnchorPoint = Vector2.new(0.5, 0.5)
+    frame.BackgroundColor3 = Color3.fromRGB(50, 10, 10)
+    frame.BorderSizePixel = 0
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 10)
+    corner.Parent = frame
+    local label = Instance.new("TextLabel")
+    label.Parent = frame
+    label.Text = "NH\xe1\xba\xacP ID NH\xe1\xba\xa0C"
+    label.Font = Enum.Font.FredokaOne
+    label.TextSize = 24
+    label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    label.BackgroundTransparency = 1
+    label.Size = UDim2.new(1, 0, 0, 40)
+    label.Position = UDim2.new(0, 0, 0, 15)
+    local label = Instance.new("TextLabel")
+    label.Parent = frame
+    label.Text = "D\xc3\xa1n ID nh\xe1\xba\xa1c Roblox v\xc3\xa0o b\xc3\xaan d\xc6\xb0\xe1\xbb\x9bi"
+    label.Font = Enum.Font.Gotham
+    label.TextSize = 12
+    label.TextColor3 = Color3.fromRGB(255, 50, 50)
+    label.BackgroundTransparency = 1
+    label.Size = UDim2.new(1, 0, 0, 20)
+    label.Position = UDim2.new(0, 0, 0, 45)
+    local textbox = Instance.new("TextBox")
+    textbox.Parent = frame
+    textbox.Size = UDim2.new(0.8, 0, 0, 40)
+    textbox.Position = UDim2.new(0.5, 0, 0.45, 0)
+    textbox.AnchorPoint = Vector2.new(0.5, 0.5)
+    textbox.BackgroundColor3 = Color3.fromRGB(30, 0, 0)
+    textbox.Font = Enum.Font.GothamBold
+    textbox.TextSize = 14
+    textbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+    textbox.PlaceholderText = "Nh\xe1\xba\xadp ID nh\xe1\xba\xa1c (vd: 126846792948717)"
+    textbox.Text = ""
+    textbox.ZIndex = 3
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 6)
+    corner.Parent = textbox
+    local button = Instance.new("TextButton")
+    button.Parent = frame
+    button.Size = UDim2.new(0.7, 0, 0, 35)
+    button.Position = UDim2.new(0.5, 0, 0.75, 0)
+    button.AnchorPoint = Vector2.new(0.5, 0.5)
+    button.BackgroundColor3 = Color3.fromRGB(255, 50, 50)
+    button.Text = "PH\xc3\x81T NH\xe1\xba\xa0C"
+    button.Font = Enum.Font.GothamBold
+    button.TextColor3 = Color3.fromRGB(255, 255, 255)
+    button.TextSize = 14
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 6)
+    corner.Parent = button
+    local button = Instance.new("TextButton")
+    button.Parent = frame
+    button.Size = UDim2.new(0, 25, 0, 25)
+    button.Position = UDim2.new(1, -30, 0, 5)
+    button.Text = "X"
+    button.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+    button.Font = Enum.Font.GothamBold
+    button.TextColor3 = Color3.fromRGB(255, 255, 255)
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 6)
+    corner.Parent = button
+    local onClick = button.MouseButton1Click:Connect(function() end)
+    local onClick = button.MouseButton1Click:Connect(function() end)
+    local onInputBegan = frame.InputBegan:Connect(function(input, gameProcessed) end)
+    local onChanged = frame.InputChanged:Connect(function(input, gameProcessed) end)
+    local onChanged = UserInputService.InputChanged:Connect(function(input, gameProcessed) end)
+    local _ = fenv.cmn3DNH4ngJxzX
+    local _ = fenv["2oPqDThyW4XFUK"]
+end,
+    Title = "\xf0\x9f\x8e\xb5 M\xe1\xbb\x9f khung nh\xe1\xba\xadp ID nh\xe1\xba\xa1c"
+})
+local _v168 = _v165:AddButton({
+    Callback = function()
+    local _v406 = Instance.new("Sound", workspace)
+    _v406.SoundId = "rbxassetid://126846792948717"
+    _v406.Looped = true
+    local _v407 = _v406:Play()
+    local _ = fenv.ZFmFeFzv8t356q
+end,
+    Title = "M\xe1\xba\xa1c V\xe1\xba\xa5n Quy K\xe1\xbb\xb3 - Weinchenglong remix"
+})
+local _v169 = _v165:AddButton({
+    Callback = function()
+    local _v408 = _v406:Stop()
+    local _v409 = _v406:Destroy()
+    local _v410 = Instance.new("Sound", workspace)
+    _v410.SoundId = "rbxassetid://124384558101360"
+    _v410.Looped = true
+    local _v411 = _v410:Play()
+    local _ = fenv.ZmtTrSsTEzzf
+end,
+    Title = "Nh\xc3\xa2n sinh qu\xc3\xa1n"
+})
+local _v170 = _v165:AddButton({Callback = function()
+    local _v412 = _v410:Stop()
+    local _v413 = _v410:Destroy()
+    local _v414 = Instance.new("Sound", workspace)
+    _v414.SoundId = "rbxassetid://92706949906032"
+    _v414.Looped = true
+    local _v415 = _v414:Play()
+    local _ = fenv.j0cfrgi0gA73Oi
+end, Title = "Poker face"})
+local _v171 = _v165:AddButton({Callback = function()
+    local _v416 = _v414:Stop()
+    local _v417 = _v414:Destroy()
+    local _v418 = Instance.new("Sound", workspace)
+    _v418.SoundId = "rbxassetid://100991657598498"
+    local _ = fenv.BlYjSNRGVuzC
+end, Title = "lollipop"})
+local _v172 = _v165:AddButton({
+    Callback = function()
+    local _v422 = Instance.new("Sound", workspace)
+    _v422.SoundId = "rbxassetid://99498025749186"
+    local _ = fenv.cJvAklEMQtBDs
+end,
+    Title = "N\xe1\xbb\x95i gi\xc3\xb3 l\xc3\xaan"
+})
+local _v173 = _v165:AddButton({Callback = function()
+    local _v426 = Instance.new("Sound", workspace)
+    _v426.SoundId = "rbxassetid://117225633780122"
+    local _ = fenv.tosL5keHFcVfLo
+end, Title = "23"})
+local _v174 = _v165:AddButton({
+    Callback = function()
+    local _v430 = Instance.new("Sound", workspace)
+    _v430.SoundId = "rbxassetid://99203947301337"
+    local _ = fenv.swVjNmWF157O0
+end,
+    Title = "\xc4\x90\xc3\xaam \xc4\x91\xe1\xba\xbfn c\xc4\x83n ph\xc3\xb2ng"
+})
+local _v175 = _v165:AddButton({
+    Callback = function()
+    local _v434 = Instance.new("Sound", workspace)
+    _v434.SoundId = "rbxassetid://138017380471511"
+    local _ = fenv.XHGuE2MAC4z8
+end,
+    Title = "Ai l\xc3\xa0 ng\xc6\xb0\xe1\xbb\x9di th\xc6\xb0\xc6\xa1ng em"
+})
+local _v176 = _v165:AddButton({Callback = function()
+    local _v438 = Instance.new("Sound", workspace)
+    _v438.SoundId = "rbxassetid://136729917310719"
+    local _ = fenv.BRfQzob3iESMWS
+end, Title = "Passo"})
+local _v = task.wait(2)
+local _v177 = _v2.ToggleUI()
+print("HDZ Hub Premium Loaded! Press the button at bottom-left to show/hide UI")
