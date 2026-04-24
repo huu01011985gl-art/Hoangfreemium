@@ -34,7 +34,7 @@ local _v23 = _v22:AddButton({
 })
     local _ = fenv["9koi0xLonKjR"]
 end,
-    Title = "\xf0\x9f\x93\xb1 TikTok Huy script"
+    Title = "\xf0\x9f\x93\xb1 TikTok hdz script"
 })
 local _v24 = _v5:AddRightGroupbox("PvP")
 local _v25 = _v24:AddButton({Callback = function()
