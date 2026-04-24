@@ -1,0 +1,431 @@
+-- ================== WAIT GAME ==================
+
+repeat task.wait() until game:IsLoaded()
+
+-- ================== SERVICES ==================
+
+local Players = game:GetService("Players")
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local LocalPlayer = Players.LocalPlayer
+
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+-- ================== REMOTES ==================
+
+local ActivityRemote = ReplicatedStorage
+
+ :WaitForChild("Modules")
+
+ :WaitForChild("Net")
+
+ :WaitForChild("RE/OnEventServiceActivity")
+
+local CommF = ReplicatedStorage
+
+ :WaitForChild("Remotes")
+
+ :WaitForChild("CommF_")
+
+-- ================== QUEUE ON TELEPORT ==================
+
+local QUEUE_CODE = [[
+
+repeat task.wait() until game:IsLoaded()
+
+local p = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui", p.PlayerGui)
+
+--------------------------------------------------
+-- LOGO
+--------------------------------------------------
+local logo = Instance.new("TextButton", gui)
+logo.Size = UDim2.new(0,60,0,60)
+logo.Position = UDim2.new(0,30,0.5,-30)
+logo.Text = "🎮"
+logo.TextSize = 28
+logo.BackgroundColor3 = Color3.fromRGB(40,40,40)
+logo.TextColor3 = Color3.new(1,1,1)
+logo.BorderSizePixel = 0
+logo.Active = true
+logo.Draggable = true -- 🔥 QUAN TRỌNG
+Instance.new("UICorner", logo).CornerRadius = UDim.new(1,0)
+
+--------------------------------------------------
+-- MAIN GUI
+--------------------------------------------------
+local main = Instance.new("Frame", gui)
+main.Size = UDim2.new(0,320,0,200)
+main.Position = UDim2.new(0.5,-160,0.5,-100)
+main.BackgroundColor3 = Color3.fromRGB(25,25,25)
+main.Visible = false
+main.Active = true
+main.Draggable = true -- 🔥 QUAN TRỌNG
+main.BorderSizePixel = 0
+Instance.new("UICorner", main).CornerRadius = UDim.new(0,14)
+
+--------------------------------------------------
+-- HEADER
+--------------------------------------------------
+local header = Instance.new("TextLabel", main)
+header.Size = UDim2.new(1,0,0,55)
+header.BackgroundColor3 = Color3.fromRGB(30,30,30)
+header.Text = "HACK TRADE BF 🎮\Made by HDZ Hub"
+header.TextColor3 = Color3.new(1,1,1)
+header.Font = Enum.Font.GothamBold
+header.TextSize = 16
+header.BorderSizePixel = 0
+
+--------------------------------------------------
+-- TOGGLE FUNCTION
+--------------------------------------------------
+local function toggle(text, y)
+	local bg = Instance.new("Frame", main)
+	bg.Size = UDim2.new(1,-30,0,45)
+	bg.Position = UDim2.new(0,15,0,y)
+	bg.BackgroundColor3 = Color3.fromRGB(35,35,35)
+	Instance.new("UICorner", bg).CornerRadius = UDim.new(0,12)
+
+	local label = Instance.new("TextLabel", bg)
+	label.Size = UDim2.new(0.6,0,1,0)
+	label.BackgroundTransparency = 1
+	label.Text = text
+	label.Font = Enum.Font.Gotham
+	label.TextSize = 15
+	label.TextColor3 = Color3.fromRGB(230,230,230)
+
+	local btn = Instance.new("TextButton", bg)
+	btn.Size = UDim2.new(0,44,0,22)
+	btn.Position = UDim2.new(1,-54,0.5,-11)
+	btn.Text = ""
+	btn.BorderSizePixel = 0
+	btn.BackgroundColor3 = Color3.fromRGB(130,130,130)
+	Instance.new("UICorner", btn).CornerRadius = UDim.new(1,0)
+
+	local dot = Instance.new("Frame", btn)
+	dot.Size = UDim2.new(0,18,0,18)
+	dot.Position = UDim2.new(0,2,0.5,-9)
+	dot.BackgroundColor3 = Color3.new(1,1,1)
+	Instance.new("UICorner", dot).CornerRadius = UDim.new(1,0)
+
+	local on = false
+	btn.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			btn.BackgroundColor3 = Color3.fromRGB(80,200,120) -- ON
+			dot.Position = UDim2.new(1,-20,0.5,-9)
+		else
+			btn.BackgroundColor3 = Color3.fromRGB(130,130,130) -- OFF
+			dot.Position = UDim2.new(0,2,0.5,-9)
+		end
+	end)
+end
+
+toggle("Freeze Trade", 70)
+toggle("Auto Accept", 125)
+
+--------------------------------------------------
+-- LOGO CLICK → OPEN / CLOSE
+--------------------------------------------------
+logo.MouseButton1Click:Connect(function()
+	main.Visible = not main.Visible
+end)
+
+]]
+
+pcall(function()
+
+ if queue_on_teleport then
+
+  queue_on_teleport(QUEUE_CODE)
+
+ elseif syn and syn.queue_on_teleport then
+
+  syn.queue_on_teleport(QUEUE_CODE)
+
+ end
+
+end)
+
+-- ================== CHECK MAP ==================
+
+local InSecondSea = false
+
+if workspace:FindFirstChild("Map") and workspace.Map:FindFirstChild("Dressrosa") then
+
+ InSecondSea = true
+
+end
+
+-- ================== GLOBAL LOCK ==================
+
+_G.__STOP_OTHER_SCRIPTS__ = false
+
+-- =================================================
+
+-- =============== TP TO SECOND SEA ================
+
+-- =================================================
+
+if not InSecondSea then
+
+ -- ================== GUI ==================
+
+ local gui = Instance.new("ScreenGui")
+
+ gui.Name = "SecondSeaTPGui"
+
+ gui.ResetOnSpawn = false
+
+ gui.Parent = PlayerGui
+
+ gui.Enabled = false
+
+ local frame = Instance.new("Frame", gui)
+
+ frame.Size = UDim2.fromScale(0.42, 0.25)
+
+ frame.Position = UDim2.fromScale(0.29, 0.35)
+
+ frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+
+ frame.BorderSizePixel = 0
+
+ Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 14)
+
+ local text = Instance.new("TextLabel", frame)
+
+ text.Size = UDim2.fromScale(1, 1)
+
+ text.BackgroundTransparency = 1
+
+ text.TextWrapped = true
+
+ text.TextScaled = true
+
+ text.Font = Enum.Font.GothamBold
+
+ text.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+ -- ================== TELEPORT ==================
+
+ local started = false
+
+ local function startTeleport()
+
+  if started then return end
+
+  started = true
+
+  _G.__STOP_OTHER_SCRIPTS__ = true
+
+  gui.Enabled = true
+
+  for i = 5, 1, -1 do
+
+   text.Text =
+
+    "Script only work on Second Sea.\n" ..
+
+    "We will tp you to Second Sea\n\n" ..
+
+    "TP in "..i.."s"
+
+   task.wait(1)
+
+  end
+
+  text.Text = "Teleporting..."
+
+  task.wait(0.3)
+
+  pcall(function()
+
+   CommF:InvokeServer("TravelDressrosa")
+
+  end)
+
+ end
+
+ -- ================== CONDITION B ==================
+
+ task.spawn(function()
+
+  repeat task.wait(0.1) until
+
+   _G.__STOP_OTHER_SCRIPTS__ or
+
+   not (
+
+    PlayerGui:FindFirstChild("Main (minimal)")
+
+    and PlayerGui["Main (minimal)"]:FindFirstChild("ChooseTeam")
+
+    and PlayerGui["Main (minimal)"].ChooseTeam:FindFirstChild("Container")
+
+    and PlayerGui["Main (minimal)"].ChooseTeam.Container:FindFirstChild("Pirates")
+
+   )
+
+  if not _G.__STOP_OTHER_SCRIPTS__ then
+
+   startTeleport()
+
+  end
+
+ end)
+
+ -- ================== CONDITION A ==================
+
+ local oldNamecall
+
+ oldNamecall = hookmetamethod(game, "__namecall", function(self, ...)
+
+  if _G.__STOP_OTHER_SCRIPTS__ then
+
+   return oldNamecall(self, ...)
+
+  end
+
+  local method = getnamecallmethod()
+
+  local args = {...}
+
+  if not started
+
+   and self == ActivityRemote
+
+   and method == "FireServer"
+
+   and typeof(args[1]) == "string"
+
+   and args[1]:find("TeamSelect/Team/")
+
+  then
+
+   task.spawn(startTeleport)
+
+  end
+
+  return oldNamecall(self, ...)
+
+ end)
+
+ repeat task.wait() until _G.__STOP_OTHER_SCRIPTS__
+
+ return
+
+end
+
+-- =================================================
+
+-- ========== ĐANG Ở SECOND SEA → RUN SCRIPT =======
+
+-- =================================================
+pcall(function()
+
+    CommF:InvokeServer("TravelDressrosa") -- teleport ngay, không GUI
+
+end)
+
+task.wait(0.3)
+
+local p = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui", p.PlayerGui)
+
+--------------------------------------------------
+-- LOGO
+--------------------------------------------------
+local logo = Instance.new("TextButton", gui)
+logo.Size = UDim2.new(0,60,0,60)
+logo.Position = UDim2.new(0,30,0.5,-30)
+logo.Text = "🎮"
+logo.TextSize = 28
+logo.BackgroundColor3 = Color3.fromRGB(40,40,40)
+logo.TextColor3 = Color3.new(1,1,1)
+logo.BorderSizePixel = 0
+logo.Active = true
+logo.Draggable = true -- 🔥 QUAN TRỌNG
+Instance.new("UICorner", logo).CornerRadius = UDim.new(1,0)
+
+--------------------------------------------------
+-- MAIN GUI
+--------------------------------------------------
+local main = Instance.new("Frame", gui)
+main.Size = UDim2.new(0,320,0,200)
+main.Position = UDim2.new(0.5,-160,0.5,-100)
+main.BackgroundColor3 = Color3.fromRGB(25,25,25)
+main.Visible = false
+main.Active = true
+main.Draggable = true -- 🔥 QUAN TRỌNG
+main.BorderSizePixel = 0
+Instance.new("UICorner", main).CornerRadius = UDim.new(0,14)
+
+--------------------------------------------------
+-- HEADER
+--------------------------------------------------
+local header = Instance.new("TextLabel", main)
+header.Size = UDim2.new(1,0,0,55)
+header.BackgroundColor3 = Color3.fromRGB(30,30,30)
+header.Text = "HACK TRADE BF 🎮\Made by HDZ Hub"
+header.TextColor3 = Color3.new(1,1,1)
+header.Font = Enum.Font.GothamBold
+header.TextSize = 16
+header.BorderSizePixel = 0
+
+--------------------------------------------------
+-- TOGGLE FUNCTION
+--------------------------------------------------
+local function toggle(text, y)
+	local bg = Instance.new("Frame", main)
+	bg.Size = UDim2.new(1,-30,0,45)
+	bg.Position = UDim2.new(0,15,0,y)
+	bg.BackgroundColor3 = Color3.fromRGB(35,35,35)
+	Instance.new("UICorner", bg).CornerRadius = UDim.new(0,12)
+
+	local label = Instance.new("TextLabel", bg)
+	label.Size = UDim2.new(0.6,0,1,0)
+	label.BackgroundTransparency = 1
+	label.Text = text
+	label.Font = Enum.Font.Gotham
+	label.TextSize = 15
+	label.TextColor3 = Color3.fromRGB(230,230,230)
+
+	local btn = Instance.new("TextButton", bg)
+	btn.Size = UDim2.new(0,44,0,22)
+	btn.Position = UDim2.new(1,-54,0.5,-11)
+	btn.Text = ""
+	btn.BorderSizePixel = 0
+	btn.BackgroundColor3 = Color3.fromRGB(130,130,130)
+	Instance.new("UICorner", btn).CornerRadius = UDim.new(1,0)
+
+	local dot = Instance.new("Frame", btn)
+	dot.Size = UDim2.new(0,18,0,18)
+	dot.Position = UDim2.new(0,2,0.5,-9)
+	dot.BackgroundColor3 = Color3.new(1,1,1)
+	Instance.new("UICorner", dot).CornerRadius = UDim.new(1,0)
+
+	local on = false
+	btn.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			btn.BackgroundColor3 = Color3.fromRGB(80,200,120) -- ON
+			dot.Position = UDim2.new(1,-20,0.5,-9)
+		else
+			btn.BackgroundColor3 = Color3.fromRGB(130,130,130) -- OFF
+			dot.Position = UDim2.new(0,2,0.5,-9)
+		end
+	end)
+end
+
+toggle("Freeze Trade", 70)
+toggle("Auto Accept", 125)
+
+--------------------------------------------------
+-- LOGO CLICK → OPEN / CLOSE
+--------------------------------------------------
+logo.MouseButton1Click:Connect(function()
+	main.Visible = not main.Visible
+end)
+
