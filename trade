@@ -1,0 +1,149 @@
+-- ================== WAIT GAME ==================
+
+repeat task.wait() until game:IsLoaded()
+
+-- ================== SERVICES ==================
+
+local Players = game:GetService("Players")
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local LocalPlayer = Players.LocalPlayer
+
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+-- ================== REMOTES ==================
+
+local ActivityRemote = ReplicatedStorage
+
+ :WaitForChild("Modules")
+
+ :WaitForChild("Net")
+
+ :WaitForChild("RE/OnEventServiceActivity")
+
+local CommF = ReplicatedStorage
+
+ :WaitForChild("Remotes")
+
+ :WaitForChild("CommF_")
+
+-- ================== QUEUE ON TELEPORT ==================
+
+local QUEUE_CODE = [[
+
+repeat task.wait() until game:IsLoaded()
+
+local p = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui", p.PlayerGui)
+
+--------------------------------------------------
+-- LOGO
+--------------------------------------------------
+local logo = Instance.new("TextButton", gui)
+logo.Size = UDim2.new(0,60,0,60)
+logo.Position = UDim2.new(0,30,0.5,-30)
+logo.Text = "🎮"
+logo.TextSize = 28
+logo.BackgroundColor3 = Color3.fromRGB(40,40,40)
+logo.TextColor3 = Color3.new(1,1,1)
+logo.BorderSizePixel = 0
+logo.Active = true
+logo.Draggable = true -- 🔥 QUAN TRỌNG
+Instance.new("UICorner", logo).CornerRadius = UDim.new(1,0)
+
+--------------------------------------------------
+-- MAIN GUI
+--------------------------------------------------
+local main = Instance.new("Frame", gui)
+main.Size = UDim2.new(0,320,0,200)
+main.Position = UDim2.new(0.5,-160,0.5,-100)
+main.BackgroundColor3 = Color3.fromRGB(25,25,25)
+main.Visible = false
+main.Active = true
+main.Draggable = true -- 🔥 QUAN TRỌNG
+main.BorderSizePixel = 0
+Instance.new("UICorner", main).CornerRadius = UDim.new(0,14)
+
+--------------------------------------------------
+-- HEADER
+--------------------------------------------------
+local header = Instance.new("TextLabel", main)
+header.Size = UDim2.new(1,0,0,55)
+header.BackgroundColor3 = Color3.fromRGB(30,30,30)
+header.Text = "HACK TRADE BF 🎮\Made by HDZ Hub"
+header.TextColor3 = Color3.new(1,1,1)
+header.Font = Enum.Font.GothamBold
+header.TextSize = 16
+header.BorderSizePixel = 0
+
+--------------------------------------------------
+-- TOGGLE FUNCTION
+--------------------------------------------------
+local function toggle(text, y)
+	local bg = Instance.new("Frame", main)
+	bg.Size = UDim2.new(1,-30,0,45)
+	bg.Position = UDim2.new(0,15,0,y)
+	bg.BackgroundColor3 = Color3.fromRGB(35,35,35)
+	Instance.new("UICorner", bg).CornerRadius = UDim.new(0,12)
+
+	local label = Instance.new("TextLabel", bg)
+	label.Size = UDim2.new(0.6,0,1,0)
+	label.BackgroundTransparency = 1
+	label.Text = text
+	label.Font = Enum.Font.Gotham
+	label.TextSize = 15
+	label.TextColor3 = Color3.fromRGB(230,230,230)
+
+	local btn = Instance.new("TextButton", bg)
+	btn.Size = UDim2.new(0,44,0,22)
+	btn.Position = UDim2.new(1,-54,0.5,-11)
+	btn.Text = ""
+	btn.BorderSizePixel = 0
+	btn.BackgroundColor3 = Color3.fromRGB(130,130,130)
+	Instance.new("UICorner", btn).CornerRadius = UDim.new(1,0)
+
+	local dot = Instance.new("Frame", btn)
+	dot.Size = UDim2.new(0,18,0,18)
+	dot.Position = UDim2.new(0,2,0.5,-9)
+	dot.BackgroundColor3 = Color3.new(1,1,1)
+	Instance.new("UICorner", dot).CornerRadius = UDim.new(1,0)
+
+	local on = false
+	btn.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			btn.BackgroundColor3 = Color3.fromRGB(80,200,120) -- ON
+			dot.Position = UDim2.new(1,-20,0.5,-9)
+		else
+			btn.BackgroundColor3 = Color3.fromRGB(130,130,130) -- OFF
+			dot.Position = UDim2.new(0,2,0.5,-9)
+		end
+	end)
+end
+
+toggle("Freeze Trade", 70)
+toggle("Auto Accept", 125)
+
+--------------------------------------------------
+-- LOGO CLICK → OPEN / CLOSE
+--------------------------------------------------
+logo.MouseButton1Click:Connect(function()
+	main.Visible = not main.Visible
+end)
+
+]]
+
+pcall(function()
+
+ if queue_on_teleport then
+
+  queue_on_teleport(QUEUE_CODE)
+
+ elseif syn and syn.queue_on_teleport then
+
+  syn.queue_on_teleport(QUEUE_CODE)
+
+ end
+
+end)
