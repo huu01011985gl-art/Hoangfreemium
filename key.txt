@@ -1,7 +1,7 @@
 --[[ 
-    SAILOR PIECE SYSTEM BY ANHTHW ROBLOX 
-    LINK GET KEY: https://taplayma.com/link/keysailorpiece
-    KEY: AnhThwRoloc_1611
+KEY SYSTEM BY  hoang(HDZ) 
+    LINK GET KEY: https://taplayma.com/link/HDZhub
+    KEY: HDZBASAN
 ]]
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -47,7 +47,7 @@ local function NotifyRed(text)
     end)
 end
 
--- Khung Menu Chính (Giao diện Sailor Piece Dark Neon)
+-- Khung Menu Chính (Giao diện HDZ key hub Dark Neon)
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = ScreenGui
 MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
@@ -72,9 +72,9 @@ UIGradient.Color = ColorSequence.new{
 }
 UIGradient.Parent = UIStroke
 
--- Tiêu đề Menu: SAILOR PIECE
+-- Tiêu đề Menu: HDZ key hub
 Title.Parent = MainFrame
-Title.Text = "SAILOR PIECE - ANHTHW"
+Title.Text = "HDZ key hub - by hoang"
 Title.Font = Enum.Font.GothamBold
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 20
@@ -116,7 +116,7 @@ Instance.new("UICorner", SubmitBtn).CornerRadius = UDim.new(0, 10)
 
 -- 1. Sao chép và hiện dòng chữ đỏ nhẹ
 CopyBtn.MouseButton1Click:Connect(function()
-    setclipboard("https://taplayma.com/link/keysailorpiece")
+    setclipboard("https://taplayma.com/link/HDZhub")
     CopyBtn.Text = "ĐÃ COPY LINK!"
     
     -- Hiện thông báo: "dán lên trình duyệt để getkey" màu đỏ nhẹ
@@ -129,7 +129,7 @@ end)
 -- 2. Kiểm tra Key và Chạy Script Luarmor
 SubmitBtn.MouseButton1Click:Connect(function()
     local userKey = KeyInput.Text
-    local correctKey = "AnhThwRoloc_1611"
+    local correctKey = "HDZBASAN"
     
     if userKey == correctKey then
         SubmitBtn.Text = "XÁC MINH THÀNH CÔNG!"
@@ -137,8 +137,8 @@ SubmitBtn.MouseButton1Click:Connect(function()
         SubmitBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
         task.wait(1)
         ScreenGui:Destroy()
-        -- Load script Sailor Piece từ Luarmor
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/4542df7ab417882e154d39afb2aa4351.lua"))()
+        -- Load script HDZ key hub từ Luarmor
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/huu01011985gl-art/hoangpremium/refs/heads/main/TRADEHOANGDZ"))()
     else
         SubmitBtn.Text = "SAI KEY! KIỂM TRA LẠI"
         SubmitBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
