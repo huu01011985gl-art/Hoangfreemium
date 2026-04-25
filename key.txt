@@ -138,7 +138,7 @@ SubmitBtn.MouseButton1Click:Connect(function()
         task.wait(1)
         ScreenGui:Destroy()
         -- Load script HDZ key hub từ Luarmor
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/huu01011985gl-art/hoangpremium/refs/heads/main/TRADEHOANGDZ"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/huu01011985gl-art/hoangpremium/refs/heads/main/TRADEHOANGDZ.txt"))()
     else
         SubmitBtn.Text = "SAI KEY! KIỂM TRA LẠI"
         SubmitBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
