@@ -1,0 +1,75 @@
+getgenv().Config = {
+
+    ["Team"] = "Pirates",
+
+    ["Hide UI"] = false,
+
+ 
+
+    ["Hunt"] = {
+
+        ["Method Farm"] = "TP", -- Reset
+
+ 
+
+        ["Chat"] = {
+
+            ["Enabled"] = false,
+
+            ["Text"] = {"msg1", "msg2"},
+
+            ["Delay"] = 15
+
+        },
+
+ 
+
+        ["Auto Hop Time"] = 30,
+
+ 
+
+        ["Teleport Y When Low Health"] = {
+
+            Enabled = true,
+
+            ["Health Min"] = 4700,
+
+            ["Health Max"] = 6000
+
+        },
+
+ 
+
+        ["Auto V3"] = true,
+
+        ["Auto V4"] = true,
+
+        ["Auto Random Fruit"] = false,
+
+        ["Rejoin When Kick"] = true,
+
+ 
+
+        ["FPS Boost Method"] = "", -- Low Graphic or Hide Map
+
+        ["White Screen"] = false,
+
+        ["Black Screen"] = false,
+
+ 
+
+        ["Webhook"] = {
+
+            ["Enabled"] = false,
+
+            ["Url"] = ""
+
+        }
+
+    }
+
+}
+
+ 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huu01011985gl-art/Fastattack/refs/heads/main/LonelyHub-BountyM1.lua.txt"))()
