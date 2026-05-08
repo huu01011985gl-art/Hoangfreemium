@@ -1,6 +1,6 @@
 --[[ 
 KEY SYSTEM BY  hoang(HDZ) 
-    LINK GET KEY: https://taplayma.com/link/HDZhub
+    LINK GET KEY: https://link4sub.com/2TXb7GEA2x
     KEY: HDZBASAN
 ]]
 
@@ -116,7 +116,7 @@ Instance.new("UICorner", SubmitBtn).CornerRadius = UDim.new(0, 10)
 
 -- 1. Sao chép và hiện dòng chữ đỏ nhẹ
 CopyBtn.MouseButton1Click:Connect(function()
-    setclipboard("https://taplayma.com/link/HDZhub")
+    setclipboard("https://link4sub.com/2TXb7GEA2x")
     CopyBtn.Text = "ĐÃ COPY LINK!"
     
     -- Hiện thông báo: "dán lên trình duyệt để getkey" màu đỏ nhẹ
@@ -138,7 +138,7 @@ SubmitBtn.MouseButton1Click:Connect(function()
         task.wait(1)
         ScreenGui:Destroy()
         -- Load script HDZ key hub từ Luarmor
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/huu01011985gl-art/Chekscript/refs/heads/main/dragon.lua.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/huu01011985gl-art/Hoangfreemium/refs/heads/main/HDZWuW.lua"))()
     else
         SubmitBtn.Text = "SAI KEY! KIỂM TRA LẠI"
         SubmitBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
